@@ -6,8 +6,8 @@
 // This example is parts of a secure project, published for educational purposes.
 // Security is important! Be safe! 
 
-// establish a connection with neroWallet
-Const ScalaWallet = require('scala-wallet-rpc');
+// establish a connection with Scala Wallet
+const ScalaWallet = require('scala-wallet-rpc');
 const Wallet = new Wallet;
 
 // examples

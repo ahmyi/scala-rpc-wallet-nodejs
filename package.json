@@ -1,5 +1,5 @@
 {
-  "name": "nero-nodejs",
+  "name": "scala-wallet-rpc-nodejs",
   "version": "4.0.0",
   "description": "A Scala Blockchain Wallet RPC library written in Node.js.",
   "main": "index.js",

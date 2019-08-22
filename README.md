@@ -23,6 +23,11 @@ git clone https://github.com/electronero/nero-nodejs.git
 git submodule add https://github.com/electronero/nero-nodejs.git 
 ```
 
+### Via Node Module
+```
+npm install https://github.com/ahmyi/scala-wallet-rpc-nodejs --save
+```
+
 ## Initializing a wallet
 
 Require the module:

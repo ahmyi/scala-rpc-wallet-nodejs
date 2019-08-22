@@ -1,8 +1,8 @@
 {
   "name": "nero-nodejs",
   "version": "4.0.0",
-  "description": "A Electronero library written in Node.js.",
-  "main": "./lib/wallet.js",
+  "description": "A Scala Blockchain Wallet RPC library written in Node.js.",
+  "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha"
   },

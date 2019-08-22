@@ -7,8 +7,8 @@
 // Security is important! Be safe! 
 
 // establish a connection with neroWallet
-var neroWallet = require('./lib/wallet');
-var Wallet = new neroWallet();
+Const ScalaWallet = require('scala-wallet-rpc');
+const Wallet = new Wallet;
 
 // examples
 
@@ -114,7 +114,7 @@ function startFunction(){
     // remember to adjust this parameter in production, this is for example purposes
     // the below command would generate a passwordless Electronero wallet cache string called 'nero_wallet'
     // REMEMBER TO NOT USE THIS IN PRODUCTION BY ANY MEANS. THIS IS AN EDUCATIONAL EXAMPLE 
-Wallet.create_wallet('nero_wallet').then(function(result){
+Wallet.create_wallet('wallet').then(function(result){
     console.log(result);
 });
 // now that we created a wallet, lets open it

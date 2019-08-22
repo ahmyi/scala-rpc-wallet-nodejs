@@ -1,6 +1,6 @@
-# nero-nodejs
+# scala-wallet-rpc-nodejs
 
-A Node.js wallet manager for interacting with `electronero-wallet-rpc`.
+A Node.js wallet manager for interacting with `scala-wallet-rpc`.
 
 Maintained for Electronero with upstream and custom patches. 
 Forked from PsychicCat/monero-nodejs 
